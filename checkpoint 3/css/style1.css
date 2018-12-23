@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#h1{
+    color: rgb(25, 25, 187);
+    position: absolute;
+    color: #000;
+    font-size: 90px;
+    margin-left:380px;
+    margin-top:150px; 
+    font-weight: bolder;
+}
+img{
+    background-size: cover;
+    height: 200px;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+#hello{
+    border: 1px solid aquamarine ; 
+    background-color: rgb(194, 178, 209);
+    width: 490px;
+    height: 300px;
+    display: inline-block;
+    margin-left:150px;
+    padding: 5px
+}
+#hi{
+    border: 1px solid aquamarine ; 
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 310px;
+    
+    display: inline-block;
+   
+}
+#hey{
+    border: 1px solid aquamarine ;
+    background-color: blanchedalmond ;
+    width: 500px ;
+    height:300px;
+    margin-left:150px;
+    display: inline-block;
+    
+}
+#hola{
+    border: 1px solid aquamarine ;
+    background-color: rgb(194, 178, 209);
+    width: 500px ;
+    height: 300px ;
+    display: inline-block
+
+}
+#hello, #hi ,#hey , #hola{vertical-align: top;}
+
+#hi:hover, #hello:hover, #hola:hover, #hey:hover{
+    border: 5px solid black ;
+}
